@@ -1,0 +1,4 @@
+[submodule "to-chunks"]
+	path = assets/js/modules/to-chunks
+	url = https://github.com/javascript-utilities/to-chunks.git
+	branch = main
