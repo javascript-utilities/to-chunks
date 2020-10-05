@@ -267,8 +267,8 @@ window.addEventListener('load', (_event) => {
   <head>
     <meta charset="UTF-8">
     <title>To Chunks JavaScript Example</title>
-    <script src="assets/js/index.js" defer></script>
     <script src="assets/js/modules/to-chunks/to-chunks.js" defer></script>
+    <script src="assets/js/index.js" defer></script>
   </head>
   <body>
     <div>
@@ -406,7 +406,7 @@ git push fork main
 Thanks for even considering it!
 
 
-With [![sponsor__shields_io__liberapay]][sponsor__link__liberapay] you may sponsor javascript-utilities on a repeating basis.
+Via Liberapay you may [![sponsor__shields_io__liberapay]][sponsor__link__liberapay] on a repeating basis.
 
 
 Regardless of if you're able to financially support projects such as to-chunks that javascript-utilities maintains, please consider sharing projects that are useful with others, because one of the goals of maintaining Open Source repositories is to provide value to the community.
