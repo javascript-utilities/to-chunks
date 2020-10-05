@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>To Chunks JavaScript Example</title>
+    <script src="assets/js/index.js" defer></script>
+    <script src="to-chunks.js" defer></script>
+    <!-- <script src="assets/js/modules/to-chunks/to-chunks.js" defer></script> -->
+  </head>
+  <body>
+    <div>
+      <label for="expression__input">Regular Expression: </label>
+      <input id="expression__input" type="text" value="[0-9]+|[a-zA-Z]+">
+      <br>
+
+      <label for="stringy__input">String Like Input: </label>
+      <input id="stringy__input" type="text" value="p1.15-2.Beta">
+      <br>
+    </div>
+
+    <div>
+      <input id="to_chunks__button" type="button" value="Re-Chunkify">
+      <br>
+
+      <label for="to_chunks__output">toChunks Output: </label>
+      <input id="to_chunks__output" type="text" readonly>
+    </div>
+  </body>
+</html>
