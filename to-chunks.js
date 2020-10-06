@@ -2,7 +2,7 @@
 /**
  * Chunks input into array based on listed separators
  * @param {number | string} input - String like input to chunk up
- * @param {number[] | string[]} separators - List of characters to separate chunks by
+ * @param {RegExp | string} separators - Regular expression to separate input by
  * @author S0AndS0
  * @license AGPL-3.0
  * @example
